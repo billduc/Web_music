@@ -1,0 +1,237 @@
+body {
+	margin:auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size: 11px;
+	text-decoration: none;
+	background: url(../images/bg.jpg) repeat-y fixed;
+	
+}
+
+a {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration:none;		
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#FF6633;	
+}
+
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.tieude
+{
+background:url(../images/nb_center.jpg) repeat-x; 
+font-family:Tahoma;
+font-size:11px; 
+font-weight:bold;
+height:18px;
+padding-top:2px; 
+}
+.casi {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#CC99FF;
+	font-size: 10px;
+	font-style:italic;
+	padding-left:12px;
+}		
+	
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#EEEEEE;
+	font-size: 12px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.cat_menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#CCFF33;
+	font-size: 13px;	
+	font-weight: bold;
+}
+.subcat_menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#003;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+input, select, textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	background-color:#000000;
+	border:1px solid #607697; padding-left:1px;
+}
+
+.submit{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	font-weight:bold;
+	padding:1px;
+	margin-bottom:-1px;
+}
+
+span#red {
+	color:red;
+}
+span#green {
+	color:green;
+}
+span#blue {
+	color:blue;
+}
+span#orange {
+	color:orange;
+}
+span#gray {
+	color:#999999;
+}
+p {
+	margin:5px;
+}
+form {
+margin:0px;
+}
+h3 {
+margin:5px;
+font-size:15px;
+}
+h5 {
+margin:5px;
+font-size:11px;
+}
+
+.left_spnb {
+	float:left;
+	background:url(../images/nb_left.jpg) no-repeat;	
+	height:18px; 
+	width:27px
+	}
+.right_spnb {
+	float:left;background:url(../images/nb_right.jpg) no-repeat;
+	height:18px;
+	width:18px;
+	}
+.center_spnb {
+float:left;background:url(../images/nb_center.jpg) repeat-x; 
+height:18px; color:#FFFFFF; 
+font-family:Tahoma;
+font-size:12px; 
+font-weight:bold; 
+padding-top:2px;
+}
+.boxsp{ border:1px solid #666; text-align:center; background-color:#fff; }
+.spbc{border:1px solid #607697; padding-top:5px; padding-left:5px; padding-right:5px; padding-bottom:5px;}
+.spbc0{border:1px solid #607697; }
+
+.font_menu_TA2{
+background:url(../images/bg_menu2.gif); height:20px; font-family:Tahoma; font-size:11px; font-weight:bold; color:#FFFFFF; padding-top:5px; padding-left:3px; text-transform:uppercase;
+}
+.font_menu_TA{
+background:url(../images/bgmenu1.jpg); height:20px; font-family:Tahoma; font-size:9px; font-weight:bold; color:#003; padding-top:5px; padding-left:3px; text-transform:uppercase; background-repeat:repeat-x;
+}
+.sub_font_menu_TA{
+background:#2f79ab; height:18px; font-family:Tahoma; font-size:11px; font-weight:bold; color:#FFFFFF; 
+}
+.light {background:#EEEEEE;}
+.unlight { background:#DDDDDD;}
+
+.div_news_images{ float:left; padding-right:5px;}
+.div_news_des{ text-align:justify;}
+.div_news_des_b{ text-align:justify; color:#777777; font-weight: bold;}
+.news_date{	font-size:95%; font-style:italic; color:#999999}
+.newsdetail{font-size:100%; text-align:justify; padding:5px 3px 5px 2px; color:#333;}
+.note{ float:right; font-style:italic; color:#AAAAAA; font-weight: bold;}
+.keywords{ text-align:justify;}
+.lightwords{ 
+background:#999999;
+color:#0000FF; 
+}
+.font_title1 A:hover{
+text-decoration:underline;
+color:#4F6086
+}
+.error_text {
+      color: #FF0000;
+     text-align: center;
+    }
+    .boxtrai {
+      float: left;
+      width: 150px;
+      text-align: right;
+      padding-right: 5px;
+    }
+    .boxphai {
+      clear: right;
+    }
+.clear{ clear:both;}
+.space{ padding-top:5px;}
+
+.sidebarmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font: bold 18px Verdana;
+width: 160px; /* Độ rộng của menu chính */
+
+}
+ 
+.sidebarmenu ul li{
+position: relative;
+}
+
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; 
+color: white;
+text-decoration: none;
+padding: 6px;
+border: 1px solid #778;
+
+}
+
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+ /*Mầu nền*/
+}
+
+.sidebarmenu ul li a:visited{
+color: white;
+}
+
+.sidebarmenu ul li a:hover{
+background-color: black;
+}
+
+/*Menu con */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 180px; /*độ rộng của menu con */
+top: 0;
+visibility: hidden;
+background-color: #012D58;
+}
+
+.sidebarmenu a.subfolderstyle{
+background: url(right.gif) no-repeat 97% 50%;
+}
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */
+
